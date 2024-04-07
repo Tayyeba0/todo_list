@@ -1,0 +1,23 @@
+{
+  "name": "@tayyeba/todo_list",
+  "version": "1.0.0",
+  "description": "A simple task list that add and remove user input using node.js ,typescript and inquirer",
+  "main": "index.js",
+  "type": "module",
+  "bin": "todo_list.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tayyeba Shakeel",
+  "license": "MIT",
+  "dependencies": {
+    "@tayyeba/todo_list": "^1.0.0",
+    "inquirer": "^9.2.17"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
